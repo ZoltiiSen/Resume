@@ -1,10 +1,29 @@
-/* NOTE: right_sidebar */
+/* ------------------------NOTE: body ---------------------------*/
+body {background-color: #f5f5f5}
+div.Page{
+  margin: 10px 30px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  height:100%;
+}
+/* ------------------------NOTE: main_content ---------------------------*/
+.main_content{
+  padding: 50px;
+}
+.main_content .Career img{
+  width: 30px;
+  padding: 0;
+  margin: 0;
+}
+.main_content .Career h2{
+  display: inline;
+}
+/* ------------------------NOTE: right_sidebar ---------------------------*/
 .right_sidebar{
   background-color: #42A8C0;
 }
-.right_sidebar .row{
+/* NOTE: Profile Container */
 
-}
 .right_sidebar .row .profile_container{
   padding: 30px;
   text-align: center;
@@ -24,15 +43,40 @@
   font-weight: 100;
   font-size: 1.9rem;
 }
-.right_sidebar .row .contacts_container {
-  padding: 30px;
-}
+/* NOTE: contacts_container */
+
+.right_sidebar .row .contacts_container {padding: 30px;}
+.right_sidebar .row .contacts_container ul.contacts_list li {margin: 5px;}
 .right_sidebar .row .contacts_container ul.contacts_list li a{
   color:#fff;
   font-weight: 100;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   text-decoration: none;
 }
-.right_sidebar .row .contacts_container ul.contacts_list li img{
-  width: 15px;
+.right_sidebar .row .contacts_container ul.contacts_list li img{width: 15px;}
+
+/* NOTE: Education_container */
+
+.right_sidebar .row .Education_container {padding: 30px;}
+.right_sidebar .row .Education_container h2{
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+}
+.right_sidebar .row .Education_container ul.Education_list {
+  color: #fff;
+  margin: 0;
+}
+.right_sidebar .row .Education_container ul.Education_list li{margin: 5px 0;}
+.right_sidebar .row .Education_container ul.Education_list li h4{
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin: 0;
+}
+.right_sidebar .row .Education_container ul.Education_list li p{
+  font-size: 1.2rem;
+  font-weight: 50;
+  line-height: 150%;
 }
