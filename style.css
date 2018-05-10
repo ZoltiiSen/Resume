@@ -8,15 +8,35 @@ div.Page{
 }
 /* ------------------------NOTE: main_content ---------------------------*/
 .main_content{
-  padding: 50px;
+padding: 20px;
 }
-.main_content .Career img{
+.main_content .Career, .main_content .Experiences{padding: 30px;}
+.main_content .Career img.Pro, .main_content .Experiences img.Exp{
   width: 30px;
   padding: 0;
   margin: 0;
+  vertical-align: 0px;
 }
-.main_content .Career h2{
-  display: inline;
+.main_content .Career h2, .main_content .Experiences h2{
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  vertical-align: 5px;
+  font-weight: 750;
+  color: #35879a;
+}
+.main_content .Experiences .htmlcss_exp, .main_content .Experiences .htmlcss_exp .header_exp, .main_content .Experiences .htmlcss_exp .right_date {
+  margin: 0;
+  padding: 0;
+}
+.main_content .Experiences .htmlcss_exp .header_exp h3{
+  font-weight: 700;
+  color: #333333;
+}
+.main_content .Experiences .htmlcss_exp .right_date h4{
+  color: #a4aac3;
+  font-size: 1rem;
 }
 /* ------------------------NOTE: right_sidebar ---------------------------*/
 .right_sidebar{
