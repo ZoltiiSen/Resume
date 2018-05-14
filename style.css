@@ -1,6 +1,6 @@
 /* ------------------------NOTE: body ---------------------------*/
 body {background-color: #f5f5f5}
-div.Page{
+.Page{
   margin: 10px 30px;
   background-color: #fff;
   border: 1px solid #eaeaea;
@@ -36,7 +36,12 @@ padding: 20px;
 }
 .main_content .Experiences .htmlcss_exp .right_date h4{
   color: #a4aac3;
-  font-size: 1rem;
+  padding-top: 15px;
+  font-size: 15px;
+}
+.main_content .Experiences .htmlcss_exp p {
+  display: block;
+  padding-top: 60px;
 }
 /* ------------------------NOTE: right_sidebar ---------------------------*/
 .right_sidebar{
